@@ -1,0 +1,8 @@
+--- a/index.js	
++++ b/index.js	
+@@ -1,4 +1,5 @@
++// patched
+ 'use strict';
+ module.exports = (flag, argv) => {
+ 	argv = argv || process.argv;
+ 	const prefix = flag.startsWith('-') ? '' : (flag.length === 1 ? '-' : '--');
